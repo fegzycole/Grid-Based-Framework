@@ -35,6 +35,10 @@
   justify-content: space-between;
 }
 
+.justify-content-center {
+  justify-content: center;
+}
+
 .justify-content-even {
   justify-content: space-evenly;
 }
@@ -49,6 +53,118 @@
 
 .justify-content-start {
   justify-content: flex-start;
+}
+
+/* class selectors for aligning flex items on the cross axis */
+
+.align-items-center {
+  align-items: center;
+}
+
+.align-items-start {
+  align-items: flex-start;
+}
+
+.align-items-end {
+  align-items: flex-end;
+}
+
+/* class selectors for aligning individual flex items */
+
+.align-self-center {
+  align-self: center;
+}
+
+.align-self-start {
+  align-self: flex-start;
+}
+
+.align-items-end {
+  align-self: flex-end;
+}
+
+/* class selectors for flex-directions */
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+/* class selectors for changing the order of flex items */
+.order-1 {
+  order: 1;
+}
+
+.order-2 {
+  order: 2;
+}
+
+.order-3 {
+  order: 3;
+}
+
+.order-4 {
+  order: 4;
+}
+
+.order-5 {
+  order: 5;
+}
+
+.order-6 {
+  order: 6;
+}
+
+.order-7 {
+  order: 7;
+}
+
+.order-8 {
+  order: 8;
+}
+
+.order-9 {
+  order: 9;
+}
+
+.order-10 {
+  order: 10;
+}
+
+.order-11 {
+  order: 11;
+}
+
+.order-12 {
+  order: 12;
+}
+
+/* class selectors for flex wrapping */
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex-initial {
+  flex-wrap: initial;
+}
+
+.flex-inherit {
+  flex-wrap: inherit;
 }
 
 /* class selectors for margin right */
@@ -176,6 +292,10 @@
   margin: 5rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 /* class selectors for margin-x (right and left) */
 .mx-0 {
   margin-right: 0;
@@ -205,6 +325,11 @@
 .mx-5 {
   margin-right: 5rem;
   margin-left: 5rem;
+}
+
+.mx-auto {
+  margin-right: auto;
+  margin-left: auto;
 }
 
 /* class selectors for margin-y (top and bottom) */
@@ -237,6 +362,11 @@
 .my-5 {
   margin-top: 5rem;
   margin-bottom: 5rem;
+}
+
+.my-auto {
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 /* class selectors for padding */
@@ -438,6 +568,10 @@
   background-color: rgb(74, 74, 74);;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
 .bg-white {
   background-color: #fff;;
 }
@@ -467,6 +601,10 @@
   color: rgb(206, 151, 62);
 }
 
+.text-color-black {
+  color: #000;
+}
+
 /* class selector for text align */
 .text-center {
   text-align: center;
@@ -477,16 +615,80 @@
   width: 100%;
 }
 
+.w-90 {
+  width: 90%;
+}
+
+.w-95 {
+  width: 95%;
+}
+
+.w-80 {
+  width: 80%;
+}
+
+.w-85 {
+  width: 85%;
+}
+
+.w-70 {
+  width: 70%;
+}
+
 .w-75 {
   width: 75%;
+}
+
+.w-65 {
+  width: 65%;
+}
+
+.w-60 {
+  width: 60%;
+}
+
+.w-55 {
+  width: 55%;
 }
 
 .w-50 {
   width: 50%;
 }
 
+.w-45 {
+  width: 45%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.w-35 {
+  width: 35%;
+}
+
+.w-30 {
+  width: 30%;
+}
+
 .w-25 {
   width: 25%;
+}
+
+.w-20 {
+  width: 20%;
+}
+
+.w-15 {
+  width: 15%;
+}
+
+.w-10 {
+  width: 10%;
+}
+
+.w-5 {
+  width: 5%;
 }
 
 /* class selector for height */
@@ -504,4 +706,159 @@
 
 .h-25 {
   height: 25%;
+}
+
+/* class selectors for aligning text */
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* class selectors for floating elements */
+
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-none {
+  float: none;
+}
+
+/* class selector for clearfix */
+
+.clearfix {
+  clear: both;
+}
+
+/* class selector for removing bullets */
+
+.list-unstyled li {
+  list-style-type: none;
+}
+
+/* class selector for adding bullets */
+
+.list-disc li {
+  list-style-type: disc;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 576px) {
+  .row {
+    flex-direction: row;
+  }
+
+  .col-sm-1,
+  .col-sm-2,
+  .col-sm-3,
+  .col-sm-4,
+  .col-sm-5,
+  .col-sm-6,
+  .col-sm-7,
+  .col-sm-8,
+  .col-sm-9,
+  .col-sm-10,
+  .col-sm-11,
+  .col-sm-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .col-sm-1 {
+    width: calc(100% / 12);
+  }
+
+  .col-sm-2 {
+    width: calc((100% / 12) * 2);
+  }
+
+  .col-sm-3 {
+    width: calc((100% / 12) * 3);
+  }
+
+  .col-sm-4 {
+    width: calc((100% / 12) * 4);
+  }
+
+  .col-sm-5 {
+    width: calc((100% / 12) * 5);
+  }
+
+  .col-sm-6 {
+    width: calc((100% / 12) * 6);
+  }
+
+  .col-sm-7 {
+    width: calc((100% / 12) * 7);
+  }
+
+  .col-sm-8 {
+    width: calc((100% / 12) * 8);
+  }
+
+  .col-sm-9 {
+    width: calc((100% / 12) * 9);
+  }
+
+  .col-10 {
+    width: calc((100% / 12) * 10);
+  }
+
+  .col-11 {
+    width: calc((100% / 12) * 11);
+  }
+
+  .col-12 {
+    width: calc((100% / 12) * 12);
+  }
+
+  .d-sm-flex {
+    display: flex;
+  }
+
+  .d-sm-none {
+    display: none;
+  }
+
+  .d-sm-inline {
+    display: inline;
+  }
+
+  .d-sm-block {
+    display: block;
+  }
+
+  .d-sm-inline-block {
+    display: inline-block;
+  }
+
+  /* class selectors for text decoration */
+  .text-sm-decoration-none {
+    text-decoration: none;
+  }
+
+  .text-sm-decoration-underline {
+    text-decoration: underline;
+  }
+
+  /* class selectors for content justification */
+  .justify-content-sm-between {
+    justify-content: space-between;
+  }
 }
