@@ -1,0 +1,20 @@
+{
+  "name": "Grid-Based-Framework",
+  "version": "1.0.0",
+  "description": "This assignment consists of building a grid-based framework (similar to bootstrap) that includes some basic functionality necessary to build a website.",
+  "main": "stylelint.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fegzycole/Grid-Based-Framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fegzycole/Grid-Based-Framework/issues"
+  },
+  "homepage": "https://github.com/fegzycole/Grid-Based-Framework#readme"
+}
