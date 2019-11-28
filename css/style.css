@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Norse';
+  src:
+    local(':relaxed:'),
+    url('../fonts/Norse-Bold-f675f9aaa02f9af3892214b1a63cb038a18d870d484a9eab34fba266583a26cf\ \(1\).otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Open sans bold';
+  src:
+    local(':relaxed:'),
+    url('../fonts/open-sans-bold.woff2') format('woff');
+}
+
+.norse {
+  font-family: Norse;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.open-sans-bold {
+  font-family: 'Open sans bold', sans-serif;
+}
+
+.small-img {
+  width: 30px;
+  height: 30px;
+}
+
+.odin-img {
+  width: 60px;
+  height: 60px;
+}
+
+.gold-text {
+  color: #cc9543;
+}
