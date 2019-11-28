@@ -1,27 +1,23 @@
 @font-face {
-  font-family: 'Norse';
-  src:
-    local(':relaxed:'),
-    url('../fonts/Norse-Bold-f675f9aaa02f9af3892214b1a63cb038a18d870d484a9eab34fba266583a26cf\ \(1\).otf') format('opentype');
+  font-family: "Norse";
+  src: local(":relaxed:"), url("../fonts/Norse-Bold-f675f9aaa02f9af3892214b1a63cb038a18d870d484a9eab34fba266583a26cf\ \(1\).otf") format("opentype");
 }
 
 @font-face {
-  font-family: 'Open sans bold';
-  src:
-    local(':relaxed:'),
-    url('../fonts/open-sans-bold.woff2') format('woff');
+  font-family: "Open sans bold";
+  src: local(":relaxed:"), url("../fonts/open-sans-bold.woff2") format("woff");
+}
+
+.open-sans {
+  font-family: "Open Sans", sans-serif;
 }
 
 .norse {
   font-family: Norse;
 }
 
-.open-sans {
-  font-family: 'Open Sans', sans-serif;
-}
-
 .open-sans-bold {
-  font-family: 'Open sans bold', sans-serif;
+  font-family: "Open sans bold", sans-serif;
 }
 
 .small-img {
@@ -30,10 +26,43 @@
 }
 
 .odin-img {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
 }
 
 .gold-text {
   color: #cc9543;
+}
+
+.nav-brand {
+  font-size: 24px;
+  white-space: nowrap;
+}
+
+.nav-list {
+  width: 490px;
+}
+
+.nav-list-li {
+  color: rgba(74, 74, 74, 0.7);
+  font-size: 16px;
+}
+
+.nav-list-li:hover {
+  color: #212529;
+}
+
+@media screen and (min-width: 1024px) {
+  .nav-list {
+    width: 510px;
+  }
+
+  .nav-brand {
+    font-size: 32px;
+  }
+
+  .odin-img {
+    width: 70px;
+    height: 70px;
+  }
 }
