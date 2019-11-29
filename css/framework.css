@@ -835,6 +835,10 @@
   background-color: #f7f7f7;
 }
 
+.box-shadow {
+  box-shadow: rgba(0, 0, 0, 0.5) 0 0.8px 4px 0;
+}
+
 /* class selectors for fonts */
 
 .font-bold {
@@ -843,6 +847,10 @@
 
 .font-bolder {
   font-weight: bolder;
+}
+
+.font-light {
+  font-weight: lighter;
 }
 
 @media screen and (min-width: 576px) {

@@ -8,8 +8,17 @@
   src: local(":relaxed:"), url("../fonts/open-sans-bold.woff2") format("woff");
 }
 
-.open-sans {
-  font-family: "Open Sans", sans-serif;
+@font-face {
+  font-family: "Open Sans medium";
+  src: local(":relaxed:"), url("../fonts/open-sans-medium.woff2") format("woff");
+}
+
+.open-sans-light {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.open-sans-medium {
+  font-family: 'Open Sans medium', sans-serif;
 }
 
 .norse {
@@ -52,6 +61,21 @@
   color: #212529;
 }
 
+.top-section-h1 {
+  font-size: 36px;
+  line-height: 43.2px;
+}
+
+.top-section-p {
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(74, 74, 74, 0.7);
+}
+
+.top-section-btn {
+  background-color: #6abfc3;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-list {
     width: 510px;
@@ -64,5 +88,10 @@
   .odin-img {
     width: 70px;
     height: 70px;
+  }
+
+  .nav-border {
+    font-size: 2em;
+    line-height: 78px;
   }
 }
