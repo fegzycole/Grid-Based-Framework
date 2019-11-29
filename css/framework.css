@@ -1682,6 +1682,10 @@
 }
 
 @media screen and (min-width: 720px) {
+  .row {
+    flex-direction: row;
+  }
+
   .col-md-1,
   .col-md-2,
   .col-md-3,
