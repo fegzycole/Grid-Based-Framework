@@ -14,11 +14,11 @@
 }
 
 .open-sans-light {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 .open-sans-medium {
-  font-family: 'Open Sans medium', sans-serif;
+  font-family: "Open Sans medium", sans-serif;
 }
 
 .norse {
@@ -90,6 +90,29 @@
   height: 165px;
 }
 
+.bg-whitesmoke {
+  background: #f3f3f3;
+}
+
+.tools-div {
+  box-shadow: 0 7px 16px 0 rgba(0, 0, 0, 0.05);
+  background: #fff;
+}
+
+.badge {
+  width: 80px;
+  height: 80px;
+}
+
+.tools-h4 {
+  color: #4a4a4a;
+  font-size: 18px;
+}
+
+.button-secondary {
+  background-color: #cc9543;
+}
+
 @media screen and (min-width: 1024px) {
   .nav-list {
     width: 510px;
@@ -107,5 +130,12 @@
   .nav-border {
     font-size: 2em;
     line-height: 78px;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  .badge {
+    width: 160px;
+    height: 160px;
   }
 }
