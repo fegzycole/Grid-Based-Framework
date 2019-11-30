@@ -19,7 +19,7 @@ This assignment consists of building a grid-based framework (similar to bootstra
 
 ## Github Pages Link
 
-Under construction
+<https://fegzycole.github.io/Grid-Based-Framework/>
 
 ## License
 
