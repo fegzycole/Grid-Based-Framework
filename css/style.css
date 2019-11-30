@@ -27,7 +27,7 @@
 }
 
 .norse {
-  font-family: Norse;
+  font-family: Norse, sans-serif;
 }
 
 .open-sans-bold {
@@ -139,7 +139,7 @@
 
 .cta-text {
   font-size: 35px;
-  line-height: 45px;;
+  line-height: 45px;
 }
 
 .cta-btn {

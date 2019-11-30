@@ -79,10 +79,6 @@
   align-self: flex-start;
 }
 
-.align-items-end {
-  align-self: flex-end;
-}
-
 /* class selectors for flex-directions */
 .flex-column {
   flex-direction: column;
@@ -750,11 +746,6 @@
 }
 
 /* class selectors for aligning text */
-
-.text-center {
-  text-align: center;
-}
-
 .text-left {
   text-align: left;
 }
@@ -988,10 +979,6 @@
 
   .align-items-md-start {
     align-items: flex-start;
-  }
-
-  .align-items-md-end {
-    align-items: flex-end;
   }
 
   /* class selectors for aligning individual flex items */
@@ -1634,11 +1621,6 @@
   }
 
   /* class selectors for aligning text */
-
-  .text-md-center {
-    text-align: center;
-  }
-
   .text-md-left {
     text-align: left;
   }
@@ -1812,10 +1794,6 @@
 
   .align-items-lg-start {
     align-items: flex-start;
-  }
-
-  .align-items-lg-end {
-    align-items: flex-end;
   }
 
   /* class selectors for aligning individual flex items */
@@ -2352,11 +2330,6 @@
 
   .text-color-lg-black {
     color: #000;
-  }
-
-  /* class selector for text align */
-  .text-lg-center {
-    text-align: center;
   }
 
   /* class selector for width */
